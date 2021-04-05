@@ -1,0 +1,26 @@
+{
+  "color": {
+    "base": {
+      "gray": {
+        "light": "#cccccc",
+        "medium": "#999999",
+        "dark": "#111111"
+      },
+      "red": "#ff0000",
+      "green": "#00ff00"
+    },
+    "font": {
+      "base": "#ff0000",
+      "secondary": "#00ff00",
+      "tertiary": "#cccccc"
+    }
+  },
+  "size": {
+    "font": {
+      "small": "0.75rem",
+      "medium": "1rem",
+      "large": "2rem",
+      "base": "1rem"
+    }
+  }
+}

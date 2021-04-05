@@ -1,0 +1,39 @@
+{
+  "name": "@sloper/storybook",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Keith Daulton <kdaulton@d13design.com>",
+  "homepage": "https://github.com/d13-design/sloper#readme",
+  "main": "lib/storybook.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d13-design/sloper.git"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/d13-design/sloper/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@storybook/addon-actions": "^6.2.2",
+    "@storybook/addon-essentials": "^6.2.2",
+    "@storybook/addon-links": "^6.2.2",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/vue": "^6.2.2",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.6"
+  },
+  "dependencies": {
+    "@sloper/card-styles": "^0.0.0",
+    "@sloper/card-vue": "^0.0.0",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

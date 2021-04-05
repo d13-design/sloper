@@ -1,0 +1,20 @@
+{
+  "name": "tokens",
+  "version": "0.0.0",
+  "description": "Sloper tokens",
+  "author": "Keith Daulton <kdaulton@d13design.com>",
+  "homepage": "https://github.com/d13-design/sloper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d13-design/sloper.git"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "bugs": {
+    "url": "https://github.com/d13-design/sloper/issues"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.10.3"
+  }
+}

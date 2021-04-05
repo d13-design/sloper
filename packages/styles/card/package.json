@@ -1,0 +1,25 @@
+{
+  "name": "@sloper/card-styles",
+  "version": "0.0.0",
+  "description": "Sloper Card styles",
+  "author": "Keith Daulton <kdaulton@d13design.com>",
+  "homepage": "https://github.com/d13-design/sloper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d13-design/sloper.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/d13-design/sloper/issues"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "mini-css-extract-plugin": "^1.4.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
+  }
+}
