@@ -1,0 +1,20 @@
+@use 'sass:map';
+@use '~@sloper/tokens/build/mapped' as tokens;
+
+@function get-theme($name) {
+  @return map.get(tokens.$maps, $name);
+}
+
+@function get-colorset($theme, $colorset) {
+  @return map.get($theme, $colorset);
+}
+
+@function get-colorset-value($colorset, $value) {
+  @return map.get($colorset, $value);
+}
+
+@function get-theme-color($theme, $color, $value) {
+  $theme: get-theme($theme);
+  $colorset: get-colorset($theme, $color);
+  @return get-colorset-value($colorset, $value);
+}

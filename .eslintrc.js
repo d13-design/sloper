@@ -1,25 +1,26 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-    'node': true
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+    node: true
   },
-  'extends': [
+  extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/recommended'
   ],
-  'parserOptions': {
-    'ecmaVersion': 12,
-    'parser': '@typescript-eslint/parser',
-    'sourceType': 'module',
-    'allowImportExportEverywhere': true
+  parserOptions: {
+    ecmaVersion: 12,
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+    allowImportExportEverywhere: true
   },
-  'plugins': [
+  plugins: [
     'vue',
     '@typescript-eslint'
   ],
-  'rules': {
+  rules: {
     'indent': [
       'error',
       2

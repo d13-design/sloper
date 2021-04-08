@@ -1,5 +1,5 @@
 import { Card } from '@sloper/card-vue';
-import '@sloper/card-styles/dist/styles.css';
+import '@sloper/card-styles/styles.scss';
 
 export default {
   title: 'Patterns/Card',

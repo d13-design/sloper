@@ -1,7 +1,7 @@
 {
-  "name": "@sloper/card-styles",
+  "name": "@sloper/color-styles",
   "version": "0.0.0",
-  "description": "Sloper Card styles",
+  "description": "Sloper Color styles",
   "author": "Keith Daulton <kdaulton@d13design.com>",
   "homepage": "https://github.com/d13-design/sloper#readme",
   "repository": {
@@ -23,6 +23,6 @@
     "style-loader": "^2.0.0"
   },
   "dependencies": {
-    "@sloper/color-styles": "^0.0.0"
+    "@sloper/tokens": "^0.0.0"
   }
 }

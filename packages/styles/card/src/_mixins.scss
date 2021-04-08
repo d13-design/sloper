@@ -1,3 +1,6 @@
+@use '@sloper/color-styles' as colors;
+
 @mixin base() {
+  background-color: colors.get-theme-color('light', 'neutral', '100');
   padding: 1rem;
 }

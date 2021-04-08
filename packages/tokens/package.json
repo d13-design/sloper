@@ -1,5 +1,5 @@
 {
-  "name": "tokens",
+  "name": "@sloper/tokens",
   "version": "0.0.0",
   "description": "Sloper tokens",
   "author": "Keith Daulton <kdaulton@d13design.com>",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/d13-design/sloper.git"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "rimraf ./build && style-dictionary build"
   },
   "bugs": {
     "url": "https://github.com/d13-design/sloper/issues"
