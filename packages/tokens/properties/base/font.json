@@ -1,21 +1,57 @@
 {
-  "size": {
-    "font": {
-      "small" : {
-        "value": "0.75",
-        "comment": "the small size of the font"
-      },
-      "medium": {
-        "value": "1",
-        "comment": "the medium size of the font"
-      },
-      "large" : {
-        "value": "2",
-        "comment": "the large size of the font"
-      },
-      "base"  : {
-        "value": "{size.font.medium.value}",
-        "comment": "the base size of the font"
+  "font": {
+    "heading1": {
+      "size": {
+        "value": 5,
+        "comment": "the scale for heading1"
+      }
+    },
+    "heading2": {
+      "size": {
+        "value": 4,
+        "comment": "the scale for heading2"
+      }
+    },
+    "heading3": {
+      "size": {
+        "value": 3,
+        "comment": "the scale for heading3"
+      }
+    },
+    "heading4": {
+      "size": {
+        "value": 2,
+        "comment": "the scale for heading4"
+      }
+    },
+    "heading5": {
+      "size": {
+        "value": 1,
+        "comment": "the scale for heading5"
+      }
+    },
+    "heading6": {
+      "size": {
+        "value": 0,
+        "comment": "the scale for heading6"
+      }
+    },
+    "body": {
+      "size": {
+        "value": 0,
+        "comment": "the scale for body type"
+      }
+    },
+    "small": {
+      "size": {
+        "value": -1,
+        "comment": "the smallest scale for type"
+      }
+    },
+    "overline": {
+      "size": {
+        "value": "{font.small.size.value}",
+        "comment": "the scale for overline type"
       }
     }
   }

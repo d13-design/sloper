@@ -1,0 +1,18 @@
+{
+  "scaling": {
+    "base": {
+      "raw": {
+        "value": "16px",
+        "comment": "raw base value to compute from"
+      },
+      "relative": {
+        "value": "1rem",
+        "comment": "relative value to compute for scale"
+      }
+    },
+    "ratio": {
+      "value": 1.333,
+      "comment": "ratio from which to compute scale"
+    }
+  }
+}

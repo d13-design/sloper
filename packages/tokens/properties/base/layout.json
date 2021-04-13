@@ -1,0 +1,8 @@
+{
+  "layout": {
+    "gutters": {
+      "value": 2,
+      "comment": "Scale to spacing between content"
+    }
+  }
+}

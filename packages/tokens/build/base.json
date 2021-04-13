@@ -1,0 +1,41 @@
+{
+  "font": {
+    "heading1": {
+      "size": 5
+    },
+    "heading2": {
+      "size": 4
+    },
+    "heading3": {
+      "size": 3
+    },
+    "heading4": {
+      "size": 2
+    },
+    "heading5": {
+      "size": 1
+    },
+    "heading6": {
+      "size": 0
+    },
+    "body": {
+      "size": 0
+    },
+    "small": {
+      "size": -1
+    },
+    "overline": {
+      "size": -1
+    }
+  },
+  "layout": {
+    "gutters": 2
+  },
+  "scaling": {
+    "base": {
+      "raw": "16px",
+      "relative": "1rem"
+    },
+    "ratio": 1.333
+  }
+}

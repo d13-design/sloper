@@ -1,4 +1,4 @@
-const { palette } = require('../base/palette');
+const { palette } = require('../color/palette');
 
 function invertSet(set) {
   const newSet = {};

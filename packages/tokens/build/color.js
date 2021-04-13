@@ -1,12 +1,8 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Apr 2021 05:50:10 GMT
+ * Generated on Tue, 13 Apr 2021 04:53:09 GMT
  */
 
-export const SizeFontSmall = "0.75rem"; // the small size of the font
-export const SizeFontMedium = "1rem"; // the medium size of the font
-export const SizeFontLarge = "2rem"; // the large size of the font
-export const SizeFontBase = "1rem"; // the base size of the font
 export const ThemeLightPrimary50 = "#F4F7FA";
 export const ThemeLightPrimary100 = "#D2E4F7";
 export const ThemeLightPrimary200 = "#B1D1F3";

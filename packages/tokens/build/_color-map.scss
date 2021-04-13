@@ -1,13 +1,9 @@
 
 /*
   Do not edit directly
-  Generated on Wed, 07 Apr 2021 05:50:10 GMT
+  Generated on Tue, 13 Apr 2021 04:53:09 GMT
 */
 
-$size-font-small: 0.75rem !default; // the small size of the font
-$size-font-medium: 1rem !default; // the medium size of the font
-$size-font-large: 2rem !default; // the large size of the font
-$size-font-base: 1rem !default; // the base size of the font
 $theme-light-primary-50: #F4F7FA !default;
 $theme-light-primary-100: #D2E4F7 !default;
 $theme-light-primary-200: #B1D1F3 !default;
@@ -219,15 +215,7 @@ $palette-lime-700: #348738 !default;
 $palette-lime-800: #27722C !default;
 $palette-lime-900: #1B5E20 !default;
 
-$tokens: (
-  'size': (
-    'font': (
-      'small': $size-font-small,
-      'medium': $size-font-medium,
-      'large': $size-font-large,
-      'base': $size-font-base
-    )
-  ),
+$maps: (
   'theme': (
     'light': (
       'primary': (

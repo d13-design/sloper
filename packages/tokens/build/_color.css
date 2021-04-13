@@ -1,13 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Apr 2021 05:50:10 GMT
+ * Generated on Tue, 13 Apr 2021 04:53:09 GMT
  */
 
 :root {
-  --size-font-small: 0.75rem; /* the small size of the font */
-  --size-font-medium: 1rem; /* the medium size of the font */
-  --size-font-large: 2rem; /* the large size of the font */
-  --size-font-base: 1rem; /* the base size of the font */
   --theme-light-primary-50: #F4F7FA;
   --theme-light-primary-100: #D2E4F7;
   --theme-light-primary-200: #B1D1F3;

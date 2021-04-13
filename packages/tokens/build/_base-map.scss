@@ -1,0 +1,61 @@
+
+/*
+  Do not edit directly
+  Generated on Tue, 13 Apr 2021 04:53:09 GMT
+*/
+
+$font-heading-1-size: 5 !default; // the scale for heading1
+$font-heading-2-size: 4 !default; // the scale for heading2
+$font-heading-3-size: 3 !default; // the scale for heading3
+$font-heading-4-size: 2 !default; // the scale for heading4
+$font-heading-5-size: 1 !default; // the scale for heading5
+$font-heading-6-size: 0 !default; // the scale for heading6
+$font-body-size: 0 !default; // the scale for body type
+$font-small-size: -1 !default; // the smallest scale for type
+$font-overline-size: -1 !default; // the scale for overline type
+$layout-gutters: 2 !default; // Scale to spacing between content
+$scaling-base-raw: 16px !default; // raw base value to compute from
+$scaling-base-relative: 1rem !default; // relative value to compute for scale
+$scaling-ratio: 1.333 !default; // ratio from which to compute scale
+
+$maps: (
+  'font': (
+    'heading1': (
+      'size': $font-heading-1-size
+    ),
+    'heading2': (
+      'size': $font-heading-2-size
+    ),
+    'heading3': (
+      'size': $font-heading-3-size
+    ),
+    'heading4': (
+      'size': $font-heading-4-size
+    ),
+    'heading5': (
+      'size': $font-heading-5-size
+    ),
+    'heading6': (
+      'size': $font-heading-6-size
+    ),
+    'body': (
+      'size': $font-body-size
+    ),
+    'small': (
+      'size': $font-small-size
+    ),
+    'overline': (
+      'size': $font-overline-size
+    )
+  ),
+  'layout': (
+    'gutters': $layout-gutters
+  ),
+  'scaling': (
+    'base': (
+      'raw': $scaling-base-raw,
+      'relative': $scaling-base-relative
+    ),
+    'ratio': $scaling-ratio
+  )
+);
