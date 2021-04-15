@@ -10,7 +10,8 @@
     "packages/components/*",
     "packages/storybook",
     "packages/styles/*",
-    "packages/tokens"
+    "packages/tokens",
+    "packages/tools/*"
   ],
   "scripts": {
     "clean": "lerna clean --yes;rimraf node_modules",

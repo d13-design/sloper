@@ -1,0 +1,21 @@
+{
+  "name": "@sloper/style-tools",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Keith Daulton <kdaulton@d13design.com>",
+  "homepage": "https://github.com/d13-design/sloper#readme",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d13-design/sloper.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/d13-design/sloper/issues"
+  }
+}
