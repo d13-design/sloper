@@ -1,11 +1,9 @@
-# `elements`
+# `@sloper/card-styles`
 
 > TODO: description
 
 ## Usage
 
-```
-const elements = require('elements');
-
-// TODO: DEMONSTRATE API
+```scss
+@use '@sloper/card-styles/styles.scss';
 ```

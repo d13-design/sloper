@@ -1,11 +1,9 @@
-# `card`
+# `@sloper/card-vue`
 
 > TODO: description
 
 ## Usage
 
-```
-const card = require('card');
-
-// TODO: DEMONSTRATE API
+```js
+import { Card } from '@sloper/card-vue';
 ```
