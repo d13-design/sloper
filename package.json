@@ -14,7 +14,8 @@
     "packages/tools/*"
   ],
   "scripts": {
-    "clean": "lerna clean --yes;rimraf node_modules",
+    "build": "lerna run build",
+    "clean": "lerna clean --yes && rimraf node_modules",
     "lint:styles": "stylelint 'packages/**/*.{css,scss}'",
     "lint:scripts": "eslint packages",
     "lint": "yarn lint:scripts && yarn lint:styles"
