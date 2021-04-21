@@ -1,2 +1,4 @@
-node_modules/**/*
-packages/tokens/build/**/*
+/node_modules/**/*
+/packages/tokens/build/**/*
+/packages/components/**/dist
+/packages/styles/**/dist
