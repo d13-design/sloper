@@ -2,6 +2,7 @@
 .env.local
 /dist
 **/dist
+tsconfig.tsbuildinfo
 
 # IDEs
 .idea
