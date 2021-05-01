@@ -1,17 +1,22 @@
-@use 'sass:map';
 @use '~@sloper/tokens/build/color-map' as tokens;
+@use '~@sloper/style-tools' as tools;
+
+////
+/// Color functions
+/// @group @sloper/color-styles
+////
 
 @function get-theme($name) {
-  $themes: map.get(tokens.$maps, 'theme');
-  @return map.get($themes, $name);
+  $themes: tools.map-get-safe(tokens.$maps, 'theme', 'theme map');
+  @return tools.map-get-safe($themes, $name, 'theme');
 }
 
 @function get-colorset($theme, $colorset) {
-  @return map.get($theme, $colorset);
+  @return tools.map-get-safe($theme, $colorset, 'colorset');
 }
 
 @function get-colorset-value($colorset, $value) {
-  @return map.get($colorset, $value);
+  @return tools.map-get-safe($colorset, $value, 'colorset value');
 }
 
 @function get-theme-color($theme, $color, $value) {

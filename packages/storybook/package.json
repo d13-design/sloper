@@ -33,6 +33,8 @@
   "dependencies": {
     "@sloper/card-styles": "^0.0.0",
     "@sloper/card-vue": "^0.0.0",
+    "@sloper/style-tools": "^0.0.0",
+    "@sloper/tokens": "^0.0.0",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   }

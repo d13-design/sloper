@@ -1,26 +1,29 @@
-@function pow($number, $exp) {
-  $value: 1;
+@use 'sass:math';
+@use 'sass:map';
 
-  @if $exp > 0 {
-    @for $i from 1 through $exp {
-      @if $exp < 0 {
-        $value: ($value / $number);
-      } @else {
-        $value: ($value * $number);
-      }
-    }
-  }
+////
+/// Generic style functions
+/// @group @sloper/style-tools
+////
 
-  @return $value;
+/// Scale function
+/// @param {number} $multiplier - The multiplier to raise by.
+/// @param {number} $ratio - The ratio to scale by.
+/// @param {number} $base - The base value to scale from.
+/// @return {number}
+
+@function scale($multiplier, $ratio, $base) {
+  @return $base * math.pow($ratio, $multi);
 }
 
-@function scale($multi, $ratio, $base) {
-  @return $base * pow($ratio, $multi);
-}
+/// Wrapper function for map.get that provides error handling
+/// @param {map} $map - The name of the defined type size.
+/// @param {string} $key - The key in the map to lookup.
+/// @param {string} $error-key ['item'] - Friendly name for the type of item in the map.
 
 @function map-get-safe($map, $key, $error-key: 'item') {
   @if not map.has-key($map, $key) {
-    @error ("The #{$error-key} "#{$key}" does not exist.");
+    @error ('The #{$error-key} "#{$key}" does not exist.');
   }
   @return map.get($map, $key);
 }

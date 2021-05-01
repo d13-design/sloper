@@ -17,6 +17,8 @@
     "url": "https://github.com/d13-design/sloper/issues"
   },
   "dependencies": {
+    "@sloper/style-tools": "^0.0.0",
+    "@sloper/tokens": "^0.0.0",
     "core-js": "^3.10.0",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.6",

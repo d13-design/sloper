@@ -23,6 +23,8 @@
     "style-loader": "^2.0.0"
   },
   "dependencies": {
-    "@sloper/color-styles": "^0.0.0"
+    "@sloper/color-styles": "^0.0.0",
+    "@sloper/style-tools": "^0.0.0",
+    "@sloper/tokens": "^0.0.0"
   }
 }

@@ -8,12 +8,12 @@
     "type": "git",
     "url": "git+https://github.com/d13-design/sloper.git"
   },
+  "bugs": {
+    "url": "https://github.com/d13-design/sloper/issues"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "true"
-  },
-  "bugs": {
-    "url": "https://github.com/d13-design/sloper/issues"
   },
   "devDependencies": {
     "css-loader": "^5.2.0",
@@ -23,6 +23,7 @@
     "style-loader": "^2.0.0"
   },
   "dependencies": {
+    "@sloper/style-tools": "^0.0.0",
     "@sloper/tokens": "^0.0.0"
   }
 }
