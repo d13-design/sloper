@@ -4,10 +4,6 @@
   "description": "> TODO: description",
   "author": "Keith Daulton <kdaulton@d13design.com>",
   "homepage": "https://github.com/d13-design/sloper#readme",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d13-design/sloper.git"
@@ -18,5 +14,8 @@
   },
   "bugs": {
     "url": "https://github.com/d13-design/sloper/issues"
+  },
+  "dependencies": {
+    "@sloper/tokens": "^0.0.0"
   }
 }
